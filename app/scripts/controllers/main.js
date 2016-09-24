@@ -27,11 +27,11 @@ angular.module('mailboxApp')
    * this directive listens to message rows click events
    */
   .directive("setActive", function () {
-    return function (scope, element, attrs) {
+    return function (scope, element) {
       element.on("click", function () {
         scope.$emit("setActiveMessage", scope.message);
       });
-    }
+    };
   })
   /**
    * This directive performs message deletion
@@ -45,7 +45,7 @@ angular.module('mailboxApp')
             scope.$apply();
             scope.$emit("setActiveMessage", $rootScope.emails[index]);
           }
-        })
-      })
-    }
+        });
+      });
+    };
   }]);

@@ -22,6 +22,7 @@ angular
     $http.get("resources/emails.json").then(function success(response){
       if(!response.data.error) {
         $rootScope.emails = response.data.messages;
+        $rootScope.emails[0].read = true;
         $rootScope.$$childHead.activeMessage = response.data.messages[0];
         $rootScope.$$childHead.activeRow = response.data.messages[0].uid;
       }

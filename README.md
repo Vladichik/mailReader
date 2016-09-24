@@ -7,5 +7,7 @@
 3. Run 'grunt serve' to start the project (it will open new tab in your browser automatically)
 
 *All required tasks from the document were implemented.*
+
 *This example app was built using AngularJs only without using any 3rd party libraries.*
+
 *Styles were written using SASS syntax.*

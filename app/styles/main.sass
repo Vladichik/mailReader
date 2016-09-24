@@ -83,6 +83,9 @@ h1
       background: $app_main_text_clr
       h4, h5, .mb-row-time
         color: white
+      .mb-delete-message
+        @extend .mb-delete-wht
+        background-size: contain
 
     h4
       color: $app_main_text_clr
@@ -101,6 +104,21 @@ h1
       height: 10px
       background: $app_main_text_clr
       border-radius: 50%
+    .mb-delete-message
+      width: 16px
+      height: 16px
+      opacity: 0.6
+      position: absolute
+      right: 10px
+      cursor: pointer
+      @extend .mb-delete
+      background-size: contain
+      +transition(transform, 300ms)
+      &:hover
+        transform: rotate(180deg)
+        -ms-transform: rotate(180deg)
+        -webkit-transform: rotate(180deg)
+
 .mb-row-time
   float: right
   font-size: $main_font_size
@@ -124,19 +142,6 @@ h1
     color: $app_main_text_clr
     font-weight: bold
 
-.mb-delete-message
-  position: absolute
-  width: 20px
-  height: 20px
-  right: 10px
-  cursor: pointer
-  @extend .mb-delete
-  background-size: contain
-  +transition(transform, 300ms)
-  &:hover
-    transform: rotate(180deg)
-    -ms-transform: rotate(180deg)
-    -webkit-transform: rotate(180deg)
 
 
 .mb-subject-line

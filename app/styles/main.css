@@ -5,8 +5,11 @@
 .mb-logo, .mb-header-logo {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAzFBMVEUAAACyQEm1QEqzQEqxQEmzQEqzQEqzQEq0QUmzQEq0QEmzQEqzQEqzQEqzQEqzQEq4PkazQEqzQEqzQUizQEqzQEqzP0qzQEqzQEqzQEqzQEqzQEqzQEmzQEqzQEqzQEqzQEqzQEqzQEqzQEqzQEqzQEqzQEq1QEmzQEqzQEqzQEqzQEqzQEqzQEqzP0qzQEqzQEqzQEqzQEqzQEqzQEqzQEqzQEqzQEr0srDCWWG4SVLvqajikZLPcHXpnp7ahYbUeX2+U1vJZ23GYWcAqVEVAAAAN3RSTlMAiRjYH+j07BDHCAL6tnolBVIrDJyWMOT4kXBXPRXdoXRrZjXQwrwD/PDi1axNSDrLsI6Bp2FBvdrDOwAABIJJREFUeNrt2GlzokAQBuDXI4KgCKLG+741JjFH72bv3f//n7bUYRiuiJBka6vm+UaJTNPT0wNAkiRJkiRJkiRJkiTp/6Y1Okbtft+p6PgXbmsFYgqzVhUfS2vnyGM5yF/y90oWnN0dZs4YN0x4WH0KKNWzOCtvGfXyVDlkrfiMo3GTYrjqwtWYU6hCG6/I3jyUr0hU0wC0KKYOGL1doigZhKsM76/DT+9SXIUejnplekVtAT99kslRuFIDZYptiIOuJ4ubeud5uBVvbqvBQ233KdoAVxTb/bH6hIrJdVSntDLurMw1MfWtAr2mCIpveqjYJTmU9kIcyU1lDY7eYEnhlLvTLysQ9/I51As57gDDnb2WCq8dn4gbNvdPSnDSN+VW22rY0FggINePTyG+CenSW272qwioONN51TsezvyDFzM7m5/sZJUE3wLDf/ksztcjOcoqQlQVoVoaCgmWbHBu55xJol/fveN/fSHBihwPOoLEQceYiOOvh4GAx3TUAnm8fBXH/xnRECxEmZTYKU8FIXOdBQIenKVNPt/c9P+JaMpVRHsIVN3jBGEGdGSBRUzc5y+n8b+76S+Ej2/aCNB8XeeugnCsQidgV90pvmn4QdzmOWz8/H2Tpl347Ui0NxGBrdmsEwDyReJ+fvrym7iBnQ8Z314fi/sWfo/kMhCFXXIFHgDMljANv8jRHANuAErVN9lF+GXdXD4i0hNbzkIAgLWigH6Dheu/pTKrsWCOu02nWWiIVOPXEwJAZUo+WxXwZKDnq2IFQTfLs+OD7c9dbwDQaiQqtfmEBTYaix8HVYazTb1jIlqWDaC5ATBiA7m+5RXj4lVXP7ZyFYl0eAW5ATDVHO/3PYQEMF2A2dUHIxMJuBO4FwLg7NOPJUMX14yrjfRUlucbMQDXpFac7fNAeACrHlJrswrWAgFEdw2XgdRyzlZ4WQAKq80FUnJae+PCADZ0YiGlLX/EuyyAItsuZkinWqKjkRDAMveavvNgQSdVpKGz+yioOChQbHOT7aF1pDEmz1WKFFsLBo89uezKu5wzFJuFXpO/pCX26Gto6nXsGXB30b6eegnmTDDdK4plmgfQ4O8+SRWDV1DrOTqndGeY4rPkHAmpvKAhsrNnaGCslCtxQo51q4EEFmv+MJdInlyFRHdhpOvHC7Hmcxouxlfi2kYiIxLkkcCef19KRN+Tq4EEbJbEUtI6rLtFkEUSltMY7EQZGDbJMUIy93Qy03Ax8bPJQEcyeWcHLZu40GQlvvMl1ha+1FxE77t9aILkFkXh1fESFRJCT0Pd8ES2zcsC4C8d6WSFXF7yenRHB5sJUssLLfV6pOE15u3Trc7+liNqZjS8gcqGxBB6CKc3huXDopmr7Pj5RsXbsLfk+2yeDaTp6VEhpo63ZyzJqz/YG6POrnszfqhvZ33vxzW8g+6UYlPwHhajFcVUw/votQoUx52K92KPcnTGutZZ4D3dGvPIPCjbcQUfwAwJormeGxMdH8esdq3xMFPb1h9GVrdiQ5IkSZIkSZIkSZIk6b/wFwCOS+HQncOkAAAAAElFTkSuQmCC") center no-repeat; }
 
-.mb-delete, .mb-delete-message {
+.mb-delete, .mb-mail-list li .mb-delete-message {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAYFBMVEUAAAABAAIBAAIAAAACAAIAAAMAAAABAAIAAAABAAIBAAIBAAMAAAMAAAMAAAABAAIBAAIBAAIBAAMCAAIAAAQAAAAAAAAAAAAAAAABAAIBAAICAAICAAIAAAIAAAIBAAJt268gAAAAH3RSTlMA4vMgmEoYgyz27MFhXgfc2s/IoEYqCBI67dOqkXZvvLp7wgAAAR9JREFUOMuFk9kWgjAMRENtLZvsKq73///Sg1ZS9KHzApwhmUwWUTTOVp0xXWVdI//YW8MKY/c/9MkXUI71lOdTPZZQ+NMmfIDe6bfrYYiS5BnmIBscDFm+xme0R/nBsSXbB/2B9ix/OLcMnzo8RuPjHAb/Fih46z+9cjs7L3VQLCKWXhaU2JXPPu/98mgM7lM3+JXPdm+3mEYcZYh7QK18yOrEMkrAHdyGlxErFbV8caOYY15qKumYdJ4Vl5iXiU4MedScKzEvOSb8oP64njc/BAn1d6FqYolQpPqfC24SFxlsqn8Hd1Gba6PUfw0P0UZ9Wx3593CQb6vXYdnInw1Ze6yOe7aRf/8UHXdiYRIrl1ra5NqnDyd9eunjTZ7/CwYqGi8rTNI2AAAAAElFTkSuQmCC") center no-repeat; }
+
+.mb-delete-wht, .mb-mail-list li.active .mb-delete-message {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAATlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////+QlxstAAAAGXRSTlMA9OJJmCAH2xiDLOzBYV7PyKAqEnI67dOqk6BENAAAARhJREFUOMuFU9cCwiAMTEoEoXTZVr3//1E7kFB94B46ODIugxTWSHTMLoqx9I+7MDJY7j+09Qy0U2dCMN3UAuztxXwEBqP/ZgDGwklowP3VZc9oQrZv4B70g4dDk3zYEW6mP8wO45mHB6t96YPhjwCMI/7ilbvJuucB3oMIhuOwhWS+Ob+H/WUZ5swb8JlvbodasN0ebbJbgE755NWQYKIEAcyFpwlCcTP74g1eS546RHIw2pGIZ8lv8R0xQlGcF0qeAjhdUH14zZcLKYTqeyLaMkRKUvWvjDeVSSaZqt8AQiozF0r1d8BCuVC51IV+D/T0LXVulhT6JHkdINruVQr9fiFtd2VgKiNXG9rq2NcXp7569eWtrv8HOcUU827Tp+UAAAAASUVORK5CYII=") center no-repeat; }
 
 h1, h2, h3, h4, h5 {
   margin: 0;
@@ -95,6 +98,8 @@ h1 {
     background: #b3404a; }
     .mb-mail-list li.active h4, .mb-mail-list li.active h5, .mb-mail-list li.active .mb-row-time {
       color: white; }
+    .mb-mail-list li.active .mb-delete-message {
+      background-size: contain; }
   .mb-mail-list li h4 {
     color: #b3404a;
     font-size: 14px;
@@ -116,6 +121,23 @@ h1 {
     height: 10px;
     background: #b3404a;
     border-radius: 50%; }
+  .mb-mail-list li .mb-delete-message {
+    width: 16px;
+    height: 16px;
+    opacity: 0.6;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    background-size: contain;
+    will-change: transform;
+    -webkit-transition: transform 300ms ease-out;
+    -moz-transition: transform 300ms ease-out;
+    -o-transition: transform 300ms ease-out;
+    transition: transform 300ms ease-out; }
+    .mb-mail-list li .mb-delete-message:hover {
+      transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -webkit-transform: rotate(180deg); }
 
 .mb-row-time {
   float: right;
@@ -141,23 +163,6 @@ h1 {
     font-size: 14px;
     color: #b3404a;
     font-weight: bold; }
-
-.mb-delete-message {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  right: 10px;
-  cursor: pointer;
-  background-size: contain;
-  will-change: transform;
-  -webkit-transition: transform 300ms ease-out;
-  -moz-transition: transform 300ms ease-out;
-  -o-transition: transform 300ms ease-out;
-  transition: transform 300ms ease-out; }
-  .mb-delete-message:hover {
-    transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg); }
 
 .mb-subject-line {
   font-weight: bold;

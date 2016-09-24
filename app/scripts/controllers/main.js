@@ -42,8 +42,8 @@ angular.module('mailboxApp')
         $rootScope.emails.map(function (message, index) {
           if(message.uid === attrs.deleteMsg){
             $rootScope.emails.splice(index, 1);
+            scope.$emit("setActiveMessage", index == $rootScope.emails.length ? $rootScope.emails[index - 1] : $rootScope.emails[index]);
             scope.$apply();
-            scope.$emit("setActiveMessage", $rootScope.emails[index]);
           }
         });
       });

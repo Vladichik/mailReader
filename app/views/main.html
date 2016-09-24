@@ -6,6 +6,7 @@
 <div class="mb-mail-list-section">
   <ul class="mb-mail-list">
     <li ng-repeat="message in emails" id="{{::message.uid}}" ng-class="{'active': activeRow === message.uid}" set-active>
+      <i class="mb-delete-message" title="{{::appStrings[lang].delete_msg}}" delete-msg="{{message.uid}}"></i>
       <h4 title="{{::message.sender}}">{{::message.sender}}</h4>
       <h5 title="{{::message.subject}}">{{::message.subject}}</h5>
       <span class="mb-row-time">{{::message.time_sent | date:'EEE dd MMM, H:MM':"GMT+Z"}}</span>
@@ -22,7 +23,6 @@
     <span class="mb-row-time">{{activeMessage.time_sent | date:'EEE dd MMM, H:MM': "GMT+Z"}}</span>
   </div>
   <div class="mb-message-details-content">
-    <i class="mb-delete-message" title="{{::appStrings[lang].delete_msg}}" delete-msg="{{activeMessage.uid}}"></i>
     <h3 class="mb-subject-line">{{activeMessage.subject}}</h3>
     <p class="mb-message-body">{{activeMessage.message}}</p>
   </div>

@@ -1,0 +1,167 @@
+/****** FONT SIZES ****** */
+/************************ */
+/****** APP COLORS ****** */
+/************************ */
+.mb-logo, .mb-header-logo {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAzFBMVEUAAACyQEm1QEqzQEqxQEmzQEqzQEqzQEq0QUmzQEq0QEmzQEqzQEqzQEqzQEqzQEq4PkazQEqzQEqzQUizQEqzQEqzP0qzQEqzQEqzQEqzQEqzQEqzQEmzQEqzQEqzQEqzQEqzQEqzQEqzQEqzQEqzQEqzQEq1QEmzQEqzQEqzQEqzQEqzQEqzQEqzP0qzQEqzQEqzQEqzQEqzQEqzQEqzQEqzQEqzQEr0srDCWWG4SVLvqajikZLPcHXpnp7ahYbUeX2+U1vJZ23GYWcAqVEVAAAAN3RSTlMAiRjYH+j07BDHCAL6tnolBVIrDJyWMOT4kXBXPRXdoXRrZjXQwrwD/PDi1axNSDrLsI6Bp2FBvdrDOwAABIJJREFUeNrt2GlzokAQBuDXI4KgCKLG+741JjFH72bv3f//n7bUYRiuiJBka6vm+UaJTNPT0wNAkiRJkiRJkiRJkiTp/6Y1Okbtft+p6PgXbmsFYgqzVhUfS2vnyGM5yF/y90oWnN0dZs4YN0x4WH0KKNWzOCtvGfXyVDlkrfiMo3GTYrjqwtWYU6hCG6/I3jyUr0hU0wC0KKYOGL1doigZhKsM76/DT+9SXIUejnplekVtAT99kslRuFIDZYptiIOuJ4ubeud5uBVvbqvBQ233KdoAVxTb/bH6hIrJdVSntDLurMw1MfWtAr2mCIpveqjYJTmU9kIcyU1lDY7eYEnhlLvTLysQ9/I51As57gDDnb2WCq8dn4gbNvdPSnDSN+VW22rY0FggINePTyG+CenSW272qwioONN51TsezvyDFzM7m5/sZJUE3wLDf/ksztcjOcoqQlQVoVoaCgmWbHBu55xJol/fveN/fSHBihwPOoLEQceYiOOvh4GAx3TUAnm8fBXH/xnRECxEmZTYKU8FIXOdBQIenKVNPt/c9P+JaMpVRHsIVN3jBGEGdGSBRUzc5y+n8b+76S+Ej2/aCNB8XeeugnCsQidgV90pvmn4QdzmOWz8/H2Tpl347Ui0NxGBrdmsEwDyReJ+fvrym7iBnQ8Z314fi/sWfo/kMhCFXXIFHgDMljANv8jRHANuAErVN9lF+GXdXD4i0hNbzkIAgLWigH6Dheu/pTKrsWCOu02nWWiIVOPXEwJAZUo+WxXwZKDnq2IFQTfLs+OD7c9dbwDQaiQqtfmEBTYaix8HVYazTb1jIlqWDaC5ATBiA7m+5RXj4lVXP7ZyFYl0eAW5ATDVHO/3PYQEMF2A2dUHIxMJuBO4FwLg7NOPJUMX14yrjfRUlucbMQDXpFac7fNAeACrHlJrswrWAgFEdw2XgdRyzlZ4WQAKq80FUnJae+PCADZ0YiGlLX/EuyyAItsuZkinWqKjkRDAMveavvNgQSdVpKGz+yioOChQbHOT7aF1pDEmz1WKFFsLBo89uezKu5wzFJuFXpO/pCX26Gto6nXsGXB30b6eegnmTDDdK4plmgfQ4O8+SRWDV1DrOTqndGeY4rPkHAmpvKAhsrNnaGCslCtxQo51q4EEFmv+MJdInlyFRHdhpOvHC7Hmcxouxlfi2kYiIxLkkcCef19KRN+Tq4EEbJbEUtI6rLtFkEUSltMY7EQZGDbJMUIy93Qy03Ax8bPJQEcyeWcHLZu40GQlvvMl1ha+1FxE77t9aILkFkXh1fESFRJCT0Pd8ES2zcsC4C8d6WSFXF7yenRHB5sJUssLLfV6pOE15u3Trc7+liNqZjS8gcqGxBB6CKc3huXDopmr7Pj5RsXbsLfk+2yeDaTp6VEhpo63ZyzJqz/YG6POrnszfqhvZ33vxzW8g+6UYlPwHhajFcVUw/votQoUx52K92KPcnTGutZZ4D3dGvPIPCjbcQUfwAwJormeGxMdH8esdq3xMFPb1h9GVrdiQ5IkSZIkSZIkSZIk6b/wFwCOS+HQncOkAAAAAElFTkSuQmCC") center no-repeat; }
+
+.mb-delete, .mb-delete-message {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAYFBMVEUAAAABAAIBAAIAAAACAAIAAAMAAAABAAIAAAABAAIBAAIBAAMAAAMAAAMAAAABAAIBAAIBAAIBAAMCAAIAAAQAAAAAAAAAAAAAAAABAAIBAAICAAICAAIAAAIAAAIBAAJt268gAAAAH3RSTlMA4vMgmEoYgyz27MFhXgfc2s/IoEYqCBI67dOqkXZvvLp7wgAAAR9JREFUOMuFk9kWgjAMRENtLZvsKq73///Sg1ZS9KHzApwhmUwWUTTOVp0xXWVdI//YW8MKY/c/9MkXUI71lOdTPZZQ+NMmfIDe6bfrYYiS5BnmIBscDFm+xme0R/nBsSXbB/2B9ix/OLcMnzo8RuPjHAb/Fih46z+9cjs7L3VQLCKWXhaU2JXPPu/98mgM7lM3+JXPdm+3mEYcZYh7QK18yOrEMkrAHdyGlxErFbV8caOYY15qKumYdJ4Vl5iXiU4MedScKzEvOSb8oP64njc/BAn1d6FqYolQpPqfC24SFxlsqn8Hd1Gba6PUfw0P0UZ9Wx3593CQb6vXYdnInw1Ze6yOe7aRf/8UHXdiYRIrl1ra5NqnDyd9eunjTZ7/CwYqGi8rTNI2AAAAAElFTkSuQmCC") center no-repeat; }
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-weight: 100;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+html, body, .mb-main-frame {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 100;
+  overflow: hidden; }
+
+a, button {
+  cursor: pointer;
+  text-decoration: none;
+  color: #333333;
+  outline: none; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.mb-main-frame {
+  background: url("../images/bgr.png"); }
+
+header {
+  background: white;
+  height: 50px;
+  width: calc(100% - 20px);
+  padding: 0 10px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  display: inline-flex;
+  align-items: center; }
+
+.mb-header-logo {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background-size: contain; }
+
+h1 {
+  color: #b3404a;
+  font-size: 18px;
+  margin: 0 0 0 10px; }
+
+.mb-mail-list-section, .mb-mail-details-section {
+  display: inline-block;
+  float: left;
+  height: calc(100% - 50px); }
+
+.mb-mail-list-section {
+  width: 300px;
+  border-right: solid 1px #d8d8d8; }
+
+.mb-mail-details-section {
+  width: calc(100% - 301px); }
+
+.mb-mail-list li {
+  height: 50px;
+  width: calc(100% - 40px);
+  background: white;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  will-change: background;
+  -webkit-transition: background 400ms ease-out;
+  -moz-transition: background 400ms ease-out;
+  -o-transition: background 400ms ease-out;
+  transition: background 400ms ease-out; }
+  .mb-mail-list li:hover {
+    background: #f2f1f1; }
+  .mb-mail-list li.active {
+    background: #b3404a; }
+    .mb-mail-list li.active h4, .mb-mail-list li.active h5, .mb-mail-list li.active .mb-row-time {
+      color: white; }
+  .mb-mail-list li h4 {
+    color: #b3404a;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .mb-mail-list li h5 {
+    font-size: 12px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .mb-mail-list li .mb-unread-bulb {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 10px;
+    height: 10px;
+    background: #b3404a;
+    border-radius: 50%; }
+
+.mb-row-time {
+  float: right;
+  font-size: 12px;
+  color: #c9c8c8;
+  margin-left: auto; }
+
+.mb-message-details-header, .mb-message-details-content {
+  width: calc(100% - 40px);
+  background: white;
+  margin: 10px 10px 0 10px;
+  padding: 10px;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); }
+
+.mb-message-details-header {
+  height: 20px;
+  display: inline-flex;
+  align-items: center; }
+  .mb-message-details-header h2 {
+    font-size: 14px;
+    color: #b3404a;
+    font-weight: bold; }
+
+.mb-delete-message {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 10px;
+  cursor: pointer;
+  background-size: contain;
+  will-change: transform;
+  -webkit-transition: transform 300ms ease-out;
+  -moz-transition: transform 300ms ease-out;
+  -o-transition: transform 300ms ease-out;
+  transition: transform 300ms ease-out; }
+  .mb-delete-message:hover {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg); }
+
+.mb-subject-line {
+  font-weight: bold;
+  margin: 0 0 15px 0; }
+
+.mb-message-body {
+  margin: 0; }
